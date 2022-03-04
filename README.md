@@ -1,2 +1,2 @@
-# App-langing
+# App-landing
 Mobile Apps
