@@ -8,32 +8,62 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <div class="logo">
-          <img class="logo-img" src="/img/logo.svg" alt="logo" />
+    <section class="hero">
+      <div class="container">
+        <header class="header">
+          <div class="logo">
+            <img class="logo-img" src="../img/logo.svg" alt="logo" />
+          </div>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="nav-link link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link" href="#">Feature</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link" href="#">About</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-btns">
+            <button class="btn btn-transparent">
+              <a class="btn-link link" href="#">Login</a>
+            </button>
+            <button class="btn btn-light btn-sign_up">Sign up</button>
+          </div>
+        </header>
+
+        <div class="hero-content">
+          <div class="hero-main">
+            <h1 class="hero-title">Applications for the future</h1>
+            <h2 class="hero-subtitle">
+              Mobile apps were originally offered for general productivity and
+              information retrieval, including email, calendar, contacts
+            </h2>
+            <div class="hero-btns">
+              <button class="btn btn-light">
+                <div class="download-img">
+                  <img
+                    class="download-icon"
+                    src="../img/download-btn.svg"
+                    alt="Download icon"
+                  />
+                </div>
+                <span>Download App</span>
+              </button>
+              <button class="btn btn-transparent btn-border">About App</button>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="../img/hero-img.png" alt="app demonstration" />
+          </div>
         </div>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item"><a class="nav-link link" href="#">Home</a></li>
-            <li class="nav-item">
-              <a class="nav-link link" href="#">Feature</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link" href="#">Service</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link" href="#">About</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header-btns">
-          <button class="btn btn-transparent">
-            <a class="btn-link link" href="#">Login</a>
-          </button>
-          <button class="btn btn-light">Sign up</button>
-        </div>
-      </header>
-    </div>
+      </div>
+    </section>
   </body>
 </html>
